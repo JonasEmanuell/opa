@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+            margin: 10px;
+        }
+        header {
+            background-color: bisque;
+            padding: 10px 10px;
+            margin: 10px;
+            width: auto;
+        }
+        main {
+            background-color: white;
+            padding: 2px;
+            margin: 10px;
+            border-radius: 10px;
+            
+        }
+        nav {
+            background-color: aquamarine;
+            padding: 3px 10px 3px 40px;box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.432);
+            
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 10px;
+            
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: brown;
+        }
+        nav > a:visited {
+            color: white;
+        }
+        article {
+            background-color: rgba(71, 71, 201, 0.644);
+            padding: 5px;
+            color: white;
+            margin: 5px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            width: auto;
+            text-align: center;
+            padding: 20px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+         .d1 {
+            margin: 50px 5px;
+            background-color: red;
+            color: white;
+            text-decoration: underline;
+            font-weight: bolder;
+            text-align: center;
+        }
+        .d2 {
+            background-color:  darkgrey;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="x">link</a>
+            <a href="x">Links</a>
+            <a href="x">Links</a>
+            <a href="x">Links</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article class="d2">
+                <h2>Título</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, nobis perferendis ipsam quod tempora ipsa provident reiciendis aliquid deserunt rem vel, illum quibusdam, odio porro soluta nam fugit accusamus inventore?</p>
+            </article>
+            <article>
+                <h2>Título 2</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias quod temporibus ipsum omnis ad numquam perspiciatis tenetur. Ducimus aliquam numquam doloremque natus itaque sit, repellat culpa cum voluptates aliquid ad?</p>
+                <aside>Conteúdo periférico do artigo</aside>
+            </article>
+            <aside class="d1">
+                Conteúdo periférico do site
+            </aside>
+        </section>
+    </main>
+    <footer>
+        Conteúdo do rodapé
+    </footer>
+</body>
+</html>

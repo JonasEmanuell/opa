@@ -1,0 +1,15 @@
+body {
+    font: normal 16px Arial, Verdana, serif;
+} /* cabeçalho */
+h1 {
+    text-align: center;
+}
+p {
+    font: normal 700 1em Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+
+}
+h2 {
+    font-weight: 400; 
+    text-align: center;
+}
